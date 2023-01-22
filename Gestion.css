@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+:root{
+    --color-darkblue:#796ec8;
+    --color-darkblue-alpha:rgba(13, 138, 187, 0.8);
+    --color-green:#21eb6e;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    height: 100vh;
+    width:100vw;
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+    font-family: 'Satisfy',sans-serif;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+    color:var( --color-darkblue);
+}
+.remplir {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+   
+}
+ .affichage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+.picture{
+    height:100px ;
+    width: 100px;
+    border:1px solid black ;
+    border-radius: 15px;
+    object-fit: contain;
+}
+label{
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: center;
+    color: var(--color-darkblue-alpha);
+}
+ul{
+    list-style-type: none;
+    color: black;
+}
+ul li{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+button{
+    height: 35px;
+    width: 80px;
+    border: 2px solid var( --color-darkblue);
+    vertical-align: middle;
+    font-size: 18px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    box-shadow: 0 3px gray;
+    padding-left: 3px ;
+    margin-left: 5px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+button:active{
+    box-shadow: 0 1px rgb(0, 0, 0);
+    transform: translateY(2px);
+    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+input{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid var( --color-darkblue);
+    outline: none;
+    font-size: 20px;
+    vertical-align: middle;
+    box-shadow: 0 2px gray;
+    padding-left: 10px;
+    
+}
+span{
+    font-size: 30px; 
+    font-family: 'Poppins',sans-serif;
+}

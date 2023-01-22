@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espace Etudiants</title>
+    <link rel="stylesheet" href="./Gestion.css">
+</head>
+<body>
+    <h1>Gestion des Etudiants</h1>
+    <div class="container">
+        <div class="remplir">
+            <label for="img">Importer votre image </label>
+            <input type="file" id="img" name="img" accept="image/*">
+        </div>
+        <div class="remplir">
+            <label for="ns">Nom et Prénom</label>
+            <input type="text" placeholder="Nom et Prénom" id="ns">
+        </div>
+        <button class="ajout" >poster</button>
+        <hr size="3px" color="black" width="95%"> 
+        <div class="affichage">
+            <ul class="etudiants"></ul>
+        </div>
+    </div>
+</body>
+<script src="./Gestion.js"></script>
+</html>
